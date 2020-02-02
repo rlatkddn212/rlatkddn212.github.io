@@ -9,12 +9,11 @@ exclude:
   - "/vendor/"
 
 # Site settings
-title: Centrarium
-subtitle: "A simple yet classy theme for your Jekyll website or blog"
-email: blcentra@gmail.com
-name: Ben Centra
+title: swkim Dev Blog
+subtitle: ""
+email: rlatkddn212@naver.com
+name: 김상우
 description: >
-  A simple yet classy theme for your Jekyll website or blog.
 # Base URL of site (i.e. /blog). It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
@@ -54,11 +53,11 @@ jekyll-archives:
 
 # Category descriptions (for archive pages)
 descriptions:
-  - cat: jekyll
-    desc: "Posts describing Jekyll setup techniques."
+  - cat: Thread
+    desc: ""
 
   - cat: dummy
-    desc: "Just some placeholder posts, lorem ipsum and the rest."
+    desc: ""
 
 # Social icons and sharing options
 #
@@ -76,40 +75,28 @@ descriptions:
 #     desc: Follow me on Twitter            # Description to display as link title, etc
 #     share: true                           # Include in the "Share" section of posts
 social:
-  - name: Twitter
-    icon: twitter
-    username: TheBenCentra
-    url: https://twitter.com/TheBenCentra
-    desc: Follow me on Twitter
-    share: true
 
   - name: Facebook
     icon: facebook
-    username: thebencentra
+    username: rlatkddn212
     url: ""
-    desc: Friend me on Facebook
+    desc: 
     share: true
 
   - name: GitHub
     icon: github
-    username: bencentra
-    url: https://github.com/bencentra
-    desc: Fork me on GitHub
+    username: rlatkddn212
+    url: https://github.com/rlatkddn212
+    desc: 
     share: false
 
   - name: LinkedIn
     icon: linkedin
-    username: Ben Centra
-    url: https://www.linkedin.com/pub/ben-centra/47/769/60a
+    username: Sangwoo Kim
+    url: 
     desc: Connect with me on LinkedIn
     share: true
 
-  - name: Google+
-    icon: google-plus
-    username: ""
-    url: ""
-    desc: Add me to your Circles
-    share: true
 
   - name: YouTube
     icon: youtube
@@ -199,6 +186,6 @@ protocols:
 
     twitter_image: "/assets/logo.png"
 
-    os_repo: "https://github.com/bencentra/centrarium.com"
-    os_rcs_type: "git"
-    os_src: "git@github.com:bencentra/centrarium.com.git"
+    os_repo: ""
+    os_rcs_type: ""
+    os_src: ""
