@@ -110,13 +110,13 @@ point_list는 kd-tree를 구성할 정점에 집합입니다. 마지막 리턴 �
 
 이해를 돕기 위해 예를 하나 들어 보겠습니다.
 
-![image-20200326230456770](C:\Users\arctu\AppData\Roaming\Typora\typora-user-images\image-20200326230456770.png)
+![image-20200326230456770](https://github.com/rlatkddn212/rlatkddn212.github.io/blob/assets/master/image-20200326230456770.png)
 
 빨간색 점과 가장 가까운 점을 찾는다고 한다면   
 우선 빨간색이 어떤 공간에 위치해 있는지 찾습니다. Kd-Tree를 재귀적으로 탐색하게 되겠죠.  
 그리고 그 공간에 부모노드와 점과 점사이 거리를 구한 후 최소값으로 기록하게됩니다.  
 
-![image-20200326230809310](C:\Users\arctu\AppData\Roaming\Typora\typora-user-images\image-20200326230809310.png)
+![image-20200326230809310](https://github.com/rlatkddn212/rlatkddn212.github.io/blob/master/assets/image-20200326230809310.png)
 
 그림에서 초록색 값이 최소 길이겠죠. 최소 길이를 구한 후 재귀를 빠져 나오면서 부모의 분할 선을 확인하게 됩니다. 여기서 파란색 선이 초록색 선 보다 길기 때문에 반대편 공간을 확인할 필요 없다는 걸 확인하실 수 있을 겁니다. 원 범위보다 벗어난 공간은 확인 할 필요 없습니다.
 
